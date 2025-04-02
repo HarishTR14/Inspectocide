@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Inspectocide",
+  "version": "1.0",
+  "description": "Ever lost in messy HTML? Hold Shift and hover to see element tags and class names instantly! Shift + C to copy, hover over for details.",
+
+  "permissions": ["storage", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_icon": "/Logo.png"
+  }
+}
